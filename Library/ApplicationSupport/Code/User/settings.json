@@ -1,0 +1,93 @@
+{
+  "workbench.colorTheme": "Dark+ Tweaked",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "500",
+  "workbench.editor.tabCloseButton": "left",
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.renderSideBySide": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "prettier.disableLanguages": [
+    "vue",
+    "js",
+    "jsx",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "terminal.integrated.fontSize": 14,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vs-kubernetes": {
+    "vs-kubernetes.draft-path": "/Users/mario/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+    "vs-kubernetes.helm-path": "/Users/mario/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vs-kubernetes.minikube-path": "/Users/mario/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vs-kubernetes.kubectl-path": "/Users/mario/.vs-kubernetes/tools/kubectl/kubectl",
+    "vs-kubernetes.minikube-path.mac": "/Users/mario/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+  },
+  "emmet.excludeLanguages": [
+    "typescriptreact",
+    "typescript"
+  ],
+  "editor.fontLigatures": false,
+  "gitlens.codeLens.enabled": false,
+  "githubPullRequests.remotes": [
+    "origin",
+    "upstream",
+    "github"
+  ],
+  "editor.minimap.enabled": false,
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "Alabaster",
+  "workbench.preferredDarkColorTheme": "Dark+ Tweaked",
+  "editor.semanticHighlighting.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "editor.matchBrackets": false,
+  "editor.tabSize": 2,
+  "todohighlight.isEnable": true,
+  "editor.autoIndent": "advanced",
+  "editor.linkedEditing": true,
+  "auto-close-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "todo-tree.tree.showScanModeButton": false,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "debug.node.autoAttach": "on",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.suggestSelection": "first"
+}

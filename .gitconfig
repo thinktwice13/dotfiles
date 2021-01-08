@@ -1,0 +1,29 @@
+# [user]
+	# Values set in ./.gitconfig_local
+  # name =
+  # email =
+  # signingkey = 
+[include]
+  path = ~/.gitconfig_local
+[alias]
+  co = checkout
+  cm = commit
+  cmm = commit -m
+  st = status
+  br = branch
+  amend = commit --amend -C HEAD
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  acmm = add && git commit -m
+[push]
+  default = simple
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[commit]
+	gpgsign = false
+[credential]
+	helper = osxkeychain
