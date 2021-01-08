@@ -8,7 +8,7 @@ timestamp() {
 # Files
 cp -pfv ~/.zshrc .
 cp -pfv ~/.gitconfig .
-cp -pfv ~/.vimrc ~/dotfiles/
+cp -pfv ~/.vimrc .
 cp -pRv ~/Library/ApplicationSupport/Code/User/keybindings.json ./Library/ApplicationSupport/Code/User/keybindings.json
 cp -pRv ~/Library/ApplicationSupport/Code/User/settings.json ./Library/ApplicationSupport/Code/User/settings.json
 
