@@ -111,5 +111,16 @@
       "label": "Open Issues",
       "query": "state:open repo:${owner}/${repository} sort:created-desc"
     }
-  ]
+  ],
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "go.toolsManagement.autoUpdate": true
 }

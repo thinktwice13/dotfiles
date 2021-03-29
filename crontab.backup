@@ -1,1 +1,2 @@
-7 10 * * 1,4 bash backup.sh
+# m h dom mon dow command
+7 10 * * 1,4 bash /users/mario/Code/dotfiles/backup.sh >> /tmp/cron.out 2>&1
