@@ -1,117 +1,14 @@
 {
-  "editor.fontSize": 14,
-  "editor.fontWeight": "400",
-  "workbench.editor.tabCloseButton": "left",
-  "workbench.startupEditor": "none",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "diffEditor.renderSideBySide": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.acceptSuggestionOnEnter": "off",
-  "editor.formatOnSave": true,
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": true,
-  "prettier.disableLanguages": [
-    "vue",
-    "js",
-    "jsx",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
-  "[javascript]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[javascriptreact]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  // tell the ESLint plugin to run on save
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "terminal.integrated.fontSize": 14,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "vs-kubernetes": {
-    "vs-kubernetes.draft-path": "/Users/mario/.vs-kubernetes/tools/draft/darwin-amd64/draft",
-    "vs-kubernetes.helm-path": "/Users/mario/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-    "vs-kubernetes.minikube-path": "/Users/mario/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
-    "vs-kubernetes.kubectl-path": "/Users/mario/.vs-kubernetes/tools/kubectl/kubectl",
-    "vs-kubernetes.minikube-path.mac": "/Users/mario/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
-    "vscode-kubernetes.minikube-path.mac": "/Users/mario/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
-  },
-  "emmet.excludeLanguages": [
-    "typescriptreact",
-    "typescript"
-  ],
-  "editor.fontLigatures": false,
-  "gitlens.codeLens.enabled": false,
-  "githubPullRequests.remotes": [
-    "origin",
-    "upstream",
-    "github"
-  ],
-  "editor.minimap.enabled": false,
-  "window.autoDetectColorScheme": true,
-  "workbench.preferredLightColorTheme": "Alabaster",
-  "workbench.preferredDarkColorTheme": "Rubber",
-  "editor.semanticHighlighting.enabled": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "editor.matchBrackets": false,
-  "editor.tabSize": 2,
-  "todohighlight.isEnable": true,
-  "editor.autoIndent": "advanced",
-  "editor.linkedEditing": true,
-  "auto-close-tag.activationOnLanguage": [
-    "html",
-    "xml",
-    "javascript",
-    "javascriptreact",
-    "typescriptreact"
-  ],
-  "todo-tree.tree.showScanModeButton": false,
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
   "editor.suggestSelection": "first",
-  "go.useLanguageServer": true,
-  "workbench.sideBar.location": "left",
-  "typescript.preferences.importModuleSpecifier": "relative",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.editor.wrapTabs": true,
-  "workbench.colorTheme": "Alabaster",
-  "githubIssues.queries": [
-    {
-      "label": "My Issues",
-      "query": "default"
-    },
-    {
-      "label": "Created Issues",
-      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
-    },
-    {
-      "label": "Open Issues",
-      "query": "state:open repo:${owner}/${repository} sort:created-desc"
-    }
-  ],
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave": true,
+  "editor.matchBrackets": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.preferredLightColorTheme": "Light+ Tweaked",
+  "prettier.singleQuote": true,
+  "editor.cursorBlinking": "smooth",
+  "window.autoDetectColorScheme": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
   "todo-tree.general.tags": [
     "BUG",
     "HACK",
@@ -122,5 +19,69 @@
     "[x]"
   ],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-  "go.toolsManagement.autoUpdate": true
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+
+  // "editor.codeActionsOnSave": null,
+
+  "editor.folding": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.lineNumbers": "off",
+  "editor.minimap.enabled": false,
+  "editor.occurrencesHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderIndentGuides": true,
+  "editor.renderLineHighlight": "none",
+  "explorer.openEditors.visible": 0,
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": null,
+  "workbench.editor.showIcons": false,
+  // "workbench.statusBar.visible": false,
+  "javascript.validate.enable": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.parameterHints.enabled": true,
+  "editor.fontLigatures": false,
+  "editor.fontWeight": "500",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "jupyter.interactiveWindowMode": "perFile",
+  "go.toolsManagement.autoUpdate": true,
+  "terminal.integrated.fontFamily": "sf mono, menlo",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "sf mono, menlo, monaco, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 14,
+  "liveshare.featureSet": "stable",
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.mac": "/Users/mario/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+  },
+  "editor.fontSize": 15,
+  "redhat.telemetry.enabled": false,
+  "workbench.preferredHighContrastColorTheme": "GitHub Light",
+  "diffEditor.renderSideBySide": false,
+  "workbench.preferredDarkColorTheme": "Dark+ Tweaked",
+  "workbench.colorTheme": "Dark+ Tweaked"
+  // "editor.hover.enabled": false
 }

@@ -82,6 +82,7 @@ alias g="git"
 
 # docker & k8s
 alias dps="docker ps"
+alias d="docker"
 alias k="kubectl"
 
 # Detect which `ls` flavor is in use
